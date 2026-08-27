@@ -272,7 +272,7 @@ def create_dashboard(sessions):
     plt.tight_layout()
     
     # Save with timestamp in filename only
-    filename = f'{timestamp}_progress_report.png'
+    filename = f'visualisations/{timestamp}_progress_report.png'
     plt.savefig(filename, dpi=300, bbox_inches='tight')
     plt.show()
     
